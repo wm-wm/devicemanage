@@ -18,7 +18,7 @@ public interface MemberDao {
 
 
     //修改用户信息
-
+    public int memberModify(Integer mid,String mname,String mmail,String mpw);
     //删除用户
     public int DeleteMember(Integer mid);
 

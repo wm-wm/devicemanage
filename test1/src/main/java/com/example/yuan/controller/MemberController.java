@@ -25,6 +25,18 @@ public class MemberController {
     private TeacherService teacherService;
 
 
+    @RequestMapping ("MemberInformationModify")
+    public String MemberInformationModify(Model model,Integer mid,String mname,String mmail,String mpw)
+    {
+        boolean b = memberService.memberModify(mid,mname,mmail,mpw);
+        if(b == true)
+        {
+            model.addAttribute("memberModify",memberService.memberModify(mid,mname,mmail,mpw));
+        }
+        return "MemberInformationModify";
+    }
+
+
     @GetMapping("/MemberInformationSelect")
     public String MemberInformationSelect(Model model)
     {

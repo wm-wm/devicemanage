@@ -20,4 +20,11 @@
         delete from teacher
         where tid=#{tid}
     </delete>
+
+
+    <!-- 教师信息添加 -->
+    <insert id="InsertTeacher" parameterType="com.example.yuan.pojo.Teacher">
+        insert into teacher(tid,tname,tmail,lid,tpw)
+        values (4,#{tname},#{tmail},#{lid},#{tpw})
+    </insert>
 </mapper>

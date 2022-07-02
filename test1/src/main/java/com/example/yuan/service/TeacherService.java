@@ -19,4 +19,9 @@ public interface TeacherService {
     public Teacher findTeacher(@Param("tid")int tid);
     public String findLabName(@Param("lid")int lid);
     public Teacher findUser(int tid);
+
+
+
+    //添加教师信息(教师注册)
+    public boolean InsertTeacher(Integer tid,String tname,String tmail,Integer lid,String tpw);
 }

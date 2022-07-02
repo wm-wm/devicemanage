@@ -36,4 +36,18 @@ public class MemberServiceImpl implements MemberService {
         Member m=memberDao.memberLogin(member);
         return m;
     }
+
+    //修改用户信息
+    public boolean memberModify(Integer mid,String mname,String mmail,String mpw)
+    {
+        int i = memberDao.memberModify(mid,mname,mmail,mpw);
+        if(i>0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }

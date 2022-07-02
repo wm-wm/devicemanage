@@ -40,31 +40,31 @@
                     <h1>教师注册</h1>
                 </div>
                 <div class="layui-form-item">
-                    <label class="layui-icon layui-icon-username" for="username"></label>
-                    <input type="text" name="username" lay-verify="required|account" placeholder="用户名" autocomplete="off" class="layui-input" value="">
+                    <label class="layui-icon layui-icon-username" ></label>
+                    <input type="text" name="tid" lay-verify="required|account" placeholder="用户名" autocomplete="off" class="layui-input" value="">
                 </div>
 				<div class="layui-form-item">
-				    <label class="layui-icon layui-icon-friends" for="tname"></label>
-				    <input type="text" name="password" lay-verify="required|tname" placeholder="昵称" autocomplete="off" class="layui-input" value="">
+				    <label class="layui-icon layui-icon-friends" ></label>
+				    <input type="text" name="tname" lay-verify="required|tname" placeholder="昵称" autocomplete="off" class="layui-input" value="">
 				</div>
 				<div class="layui-form-item">
-				    <label class="layui-icon layui-icon-email" for="tmail"></label>
-				    <input type="text" name="password" lay-verify="required|tmail" placeholder="邮箱" autocomplete="off" class="layui-input" value="">
+				    <label class="layui-icon layui-icon-email" ></label>
+				    <input type="text" name="tmail" lay-verify="required|tmail" placeholder="邮箱" autocomplete="off" class="layui-input" value="">
 				</div>
                 <div class="layui-form-item">
-                    <label class="layui-icon layui-icon-read" for="laboratory"></label>
-                    <input type="password" name="password" lay-verify="required|laboratory" placeholder="实验室" autocomplete="off" class="layui-input" value="">
+                    <label class="layui-icon layui-icon-read" ></label>
+                    <input type="text" name="lid" lay-verify="required|laboratory" placeholder="实验室" autocomplete="off" class="layui-input" value="">
                 </div>
 				<div class="layui-form-item">
-				    <label class="layui-icon layui-icon-password" for="password1"></label>
-				    <input type="password" name="password" lay-verify="required|password1" placeholder="密码" autocomplete="off" class="layui-input" value="">
+				    <label class="layui-icon layui-icon-password" ></label>
+				    <input type="password" name="tpw" lay-verify="required|password1" placeholder="密码" autocomplete="off" class="layui-input" value="">
 				</div>
 				<div class="layui-form-item">
-				    <label class="layui-icon layui-icon-password" for="password2"></label>
+				    <label class="layui-icon layui-icon-password" ></label>
 				    <input type="password" name="password" lay-verify="required|password2" placeholder="确认密码" autocomplete="off" class="layui-input" value="">
 				</div>
 				<div class="layui-form-item">
-				 <a href=""><button class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="register">注 册</button></a>   
+				 <a href=""><button class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="register" type="submit">注 册</button></a>
 				</div>
             </form>
         </div>
@@ -92,7 +92,7 @@
         // 进行登录操作
         form.on('submit(login)', function (data) {
             data = data.field;
-            if (data.username == '') {
+            if (data.tid == '') {
                 layer.msg('用户名不能为空');
                 return false;
             }

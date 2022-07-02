@@ -14,4 +14,7 @@ public interface MemberService {
 
 
     Member memberLogin(Member member);
+
+    //修改用户信息
+    public boolean memberModify(Integer mid,String mname,String mmail,String mpw);
 }

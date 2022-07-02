@@ -28,4 +28,7 @@ public interface TeacherDao {
 
     @Select("SELECT lname FROM laboratory WHERE lid=#{lid};")
     public String findLabName(@Param("lid")int lid);
+
+    //添加教师信息(教师注册)
+    public int InsertTeacher(Integer tid,String tname,String tmail,Integer lid,String tpw);
 }

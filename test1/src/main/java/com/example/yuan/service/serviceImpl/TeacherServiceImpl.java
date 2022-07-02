@@ -62,4 +62,19 @@ public class TeacherServiceImpl implements TeacherService {
         if(teacher!=null)teacher.setLibName(findLabName(teacher.getLid()));
         return teacher;
     }
+
+
+    //添加教师信息(教师注册)
+    public boolean InsertTeacher(Integer tid,String tname,String tmail,Integer lid,String tpw)
+    {
+        int i = teacherDao.InsertTeacher(tid,tname,tmail,lid,tpw);
+        if(i>0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }

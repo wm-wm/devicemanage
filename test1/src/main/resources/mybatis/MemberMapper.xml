@@ -21,4 +21,12 @@
         WHERE mid = #{mid}
           AND mpw = #{mpw}
     </select>
+
+
+    <!-- 用户信息修改 -->
+    <update id="memberModify" parameterType="com.example.yuan.pojo.Member">
+        update member
+        set mname = #{mname},mmail = #{mmail},mpw = #{mpw}
+        where mid = #{mid}
+    </update>
 </mapper>

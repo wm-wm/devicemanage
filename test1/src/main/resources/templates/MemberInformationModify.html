@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>科研设备预约系统</title>
+    <title>用户信息修改</title>
     <link rel="stylesheet" href="../static/css/layui.css">
     <link rel="stylesheet" href="../static/css/inputt.css">
 </head>
@@ -27,8 +27,8 @@
                 </a>
                 <dl class="layui-nav-child">
                     <dd><a href="">个人信息</a></dd>
-                    <dd><a href="">设置</a></dd>
-                    <dd><a href="">退出登录</a></dd>
+                    <dd><a href="">Settings</a></dd>
+                    <dd><a href="">Sign out</a></dd>
                 </dl>
             </li>
             <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
@@ -72,14 +72,38 @@
 
     <div class="layui-body">
         <!-- 内容主体区域 -->
-        <div class="layui-carousel" id="test1" lay-filter="test1">
-            <div carousel-item="">
-                <div style="background-image: url(../static/img/photo01.jpg)"></div>
-                <div style="background-image: url(../static/img/photo02.jpg)"></div>
-                <div>条目3</div>
-                <div>条目4</div>
-            </div>
+        <div>
+            <form action="" method="post">
+                <p>请输入用户账号</p>
+                <div class="layui-form-item" style="padding-top: 30px" >
+                    <label class="layui-form-label">用户账号</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="mid" lay-verify="title" autocomplete="off" placeholder="请输入用户账号" class="layui-input">
+                    </div>
+                </div>
+                <p>请输入你要修改的数据</p>
+                <div class="layui-form-item" style="">
+                    <label class="layui-form-label">用户姓名</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="mname" lay-verify="title" autocomplete="off" placeholder="请输入用户姓名" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="">
+                    <label class="layui-form-label">用户邮箱</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="mmail" lay-verify="title" autocomplete="off" placeholder="请输入用户邮箱" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="">
+                    <label class="layui-form-label">用户密码</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="mpw" lay-verify="title" autocomplete="off" placeholder="请输入用户密码" class="layui-input">
+                    </div>
+                </div>
+                <a href="MemberInformationSelect"><button class="layui-btn layui-btn-normal" type="submit" style="margin-left: 120px">提交</button></a>
+            </form>
         </div>
+
     </div>
 
     <div class="layui-footer">
