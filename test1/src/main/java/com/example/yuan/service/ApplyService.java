@@ -21,4 +21,6 @@ public interface ApplyService {
     List<Apply> SelectByMid(Integer Mid);
     //addApply
     void AddApply(Apply apply);
+    Apply SelectByAid(Integer aid);
+    void updateApply(Integer aid,String acomment);
 }

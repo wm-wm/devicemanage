@@ -44,9 +44,15 @@
 
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
                 <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">实验设备</a>
+                    <a  href="javascript:;">实验设备</a>
                     <dl class="layui-nav-child">
                         <dd><a th:href="@{/toAllOfEquipment}">所有设备</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">申请列表</a>
+                    <dl class="layui-nav-child">
+                        <dd><a th:href="@{/toApply}">所有请求</a></dd>
                     </dl>
                 </li>
             </ul>
@@ -85,12 +91,6 @@
                     <label class="layui-form-label">结束:</label>
                     <div class="layui-input-block">
                         <input type="text" name="Aend" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input">
-                    </div>
-                </div>
-                <div class="layui-form-item">
-                    <label class="layui-form-label">评价:</label>
-                    <div class="layui-input-block">
-                        <input type="text" name="Acomment" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input">
                     </div>
                 </div>
                 <div class="layui-form-item">
@@ -154,7 +154,7 @@
             return false;
         }
         if (request.evaluate.value == "") {
-            alert("请评价完在申请哈！")
+            alert("请输入申请理由！")
             return false;
         }
         return true;

@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41b90d61-4623-4be3-8e99-315619ff0954" name="变更" comment="更新页面">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="41b90d61-4623-4be3-8e99-315619ff0954" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/Evaluate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/test1/log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/ApplyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/ApplyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/ApplyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/ApplyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/ApplyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/ApplyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/serviceImpl/ApplyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/serviceImpl/ApplyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/mybatis/ApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/mybatis/ApplyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AllOfEquipment.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AllOfEquipment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/Request.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/Request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/SelectApply.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/SelectApply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/memberMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/memberMain.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,7 +378,6 @@
         <entry key="20ce256d-46b1-4f54-9601-f609801ef4e7" value="TOOL_WINDOW" />
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>

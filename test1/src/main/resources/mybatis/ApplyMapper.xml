@@ -12,18 +12,31 @@
         and apply.flag = flag.flag;
     </select>
 
-
     <select id="ApplyCount" resultType="java.lang.Integer">
         SELECT count(*)
         FROM apply
     </select>
+
     <select id="SelectByMid" resultType="Apply">
         select *
         from apply
         where mid = #{mid}
     </select>
+
     <insert id="AddApply" parameterType="com.example.yuan.pojo.Apply">
         insert into apply(astart,aend,acomment,aevaluate,mid,eid,aid,flag)
         values(#{astart},#{aend},#{acomment},#{aevaluate},#{mid},#{eid},#{aid},#{flag})
     </insert>
+
+    <select id="SelectByAid" resultType="com.example.yuan.pojo.Apply">
+        select *
+        from apply
+        where aid=#{aid}
+    </select>
+
+    <update id="updateApply" parameterType="java.lang.Override">
+        update apply
+        set acomment=#{acomment}
+        where aid=#{aid}
+    </update>
 </mapper>

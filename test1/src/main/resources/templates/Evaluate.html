@@ -13,7 +13,7 @@
     <nav class="layui-header" th:fragment="common-navbar">
         <div class="layui-logo layui-hide-xs layui-bg-black">科研设备共享平台</div>
 
-        <!-- 头部区域（可配合layui 已有的水平导航） -->
+
         <ul class="layui-nav layui-layout-left">
             <!-- 移动端显示 -->
             <li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-header-event="menuLeft">
@@ -22,7 +22,7 @@
             <p style="font-size: 20px;padding-left: 320px;padding-top: 15px" >欢迎使用科研设备共享平台!</p>
         </ul>
         <ul class="layui-nav layui-layout-right">
-            <li class="layui-nav-item layui-hide layui-show-md-inline-block">
+            <li class="layui-nav-item layui-hide layui-show -md-inline-block">
                 <a href="javascript:;" th:text="${name} + '的主页'">
                 </a>
                 <dl class="layui-nav-child">
@@ -37,9 +37,11 @@
             </li>
         </ul>
     </nav>
+
     <!-- 侧边栏 -->
     <div class="layui-side layui-bg-black" >
         <div class="layui-side-scroll">
+
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
                 <li class="layui-nav-item layui-nav-itemed">
                     <a  href="javascript:;">实验设备</a>
@@ -61,16 +63,51 @@
 
         <!-- 内容主体区域 -->
         <div style="padding: 15px;">
-            <table class="layui-tab">
-                <tr>
-                    <td text-align="center">你好，</td>
-                    <td text="coach.coachNumber}" th:text="${name}"></td>
-                </tr>
-                <tr>
-                    <td text-align="center">ID：</td>
-                    <td text="coach.coachNumber} " th:text="${id}"></td>
-                </tr>
-            </table>
+            <form class="layui-form" th:action="@{/evaluate}"  method="get" name="requestForm">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">器材Id:</label>
+                    <div class="layui-input-block">
+                        <input type="text" disabled="disabled" name="Eid" lay-verify="title" th:value="${a.getEid()}" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">申请编号:</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="aid"  lay-verify="title" th:value="${a.getAid()}" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">用户Id:</label>
+                    <div class="layui-input-block">
+                        <input type="text" disabled="disabled" name="Mid" lay-verify="title" th:value="${a.getMid()}" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">开始时间:</label>
+                    <div class="layui-input-block">
+                        <input type="text" disabled="disabled" name="Astrat" lay-verify="title"  th:value="${a.getAstart()}" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">结束:</label>
+                    <div class="layui-input-block">
+                        <input type="text" disabled="disabled" name="Aend" lay-verify="title" th:value="${a.getAend()}" autocomplete="off"  class="layui-input">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">评价:</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="Acomment" lay-verify="title" autocomplete="off"  placeholder="请输入您的评价" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-input-inline"></div>
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button  type="submit"class="layui-btn" lay-submit lay-filter="formDemo">提交</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
     <div>
@@ -80,10 +117,6 @@
             实验室设备管理平台
         </div>
     </div>
-
-
-
-
 </div>
 <div>
     <script th:src="@{../static/js/layui.js}"></script>
@@ -115,5 +148,19 @@
         });
     </script>
 </div>
+<script type="text/javascript">
+    function beforeSubmit(request) {
+
+        if (request.aEnd.value == "") {
+            alert("请输入结束时间！")
+            return false;
+        }
+        if (request.evaluate.value == "") {
+            alert("请评价完在申请哈！")
+            return false;
+        }
+        return true;
+    }
+</script>
 </body>
 </html>

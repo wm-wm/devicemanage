@@ -47,11 +47,18 @@
 
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
                 <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">实验设备</a>
+                    <a  href="javascript:;">实验设备</a>
                     <dl class="layui-nav-child">
                         <dd><a th:href="@{/toAllOfEquipment}">所有设备</a></dd>
                     </dl>
                 </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">申请列表</a>
+                    <dl class="layui-nav-child">
+                        <dd><a th:href="@{/toApply}">所有请求</a></dd>
+                    </dl>
+                </li>
+
             </ul>
         </div>
     </div>

@@ -83,7 +83,7 @@ public class MemberController {
             session.setAttribute("mail",Mmail1);
 
             model.addAttribute("member",member);
-            session.setAttribute("member",member);
+            session.setAttribute("member",member1);
             return "memberMain";
         }else
         if(teacher!=null&&Mpw.equalsIgnoreCase(teacher.getTpw())){

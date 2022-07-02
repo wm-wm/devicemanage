@@ -50,4 +50,12 @@ public class ApplyServiceImpl implements ApplyService {
     public  void AddApply(Apply apply){
         applyDao.AddApply(apply);
     }
+    @Override
+    public  Apply SelectByAid(Integer aid){
+        return applyDao.SelectByAid(aid);
+    }
+    @Override
+    public void updateApply(Integer aid,String acomment){
+        applyDao.updateApply(aid,acomment);
+    }
 }

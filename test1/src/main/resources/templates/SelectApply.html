@@ -44,10 +44,15 @@
     <!-- 侧边栏 -->
     <div class="layui-side layui-bg-black" >
         <div class="layui-side-scroll">
-
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
                 <li class="layui-nav-item layui-nav-itemed">
-                    <a class="" href="javascript:;">申请列表</a>
+                    <a  href="javascript:;">实验设备</a>
+                    <dl class="layui-nav-child">
+                        <dd><a th:href="@{/toAllOfEquipment}">所有设备</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">申请列表</a>
                     <dl class="layui-nav-child">
                         <dd><a th:href="@{/toApply}">所有请求</a></dd>
                     </dl>
@@ -67,20 +72,21 @@
                 <th>结束日期</th>
                 <th>申请理由</th>
                 <th>评价</th>
+                <th>   </th>
             </tr>
             </thead>
             <tr  th:each="a:${applies}">
-                <td th:text="${Mname}"></td>
-                <td th:text="${a.getEid()}"></td>
+                <td th:text="${a.getMname()}"></td>
+                <td th:text="${a.getEname()}"></td>
                 <td th:text="${a.getAstart()}"></td>
                 <td th:text="${a.getAend()}"></td>
-                <td th:text="${a.getAcomment()}"></td>
                 <td th:text="${a.getAevaluate()}"></td>
-<!--                <td>-->
-<!--                    <a th:href="">-->
-<!--                        <input type="button" class="btn btn-sm btn-outline-primary" th:value="评价">-->
-<!--                    </a>-->
-<!--                </td>-->
+                <td th:text="${a.getAcomment()}"></td>
+                <td>
+                    <a th:href="@{/toEvaluate(aid=${a.getAid()})}">
+                        <input type="button" class="btn btn-sm btn-outline-primary" th:value="评价">
+                    </a>
+                </td>
             </tr>
         </table>
     </div>
