@@ -28,6 +28,7 @@ public class EquipmentControllerTest {
     private EquipmentService equipmentService;
     int eid;
     String ename;
+    Integer cid;
     String cname;
     public void setup()
     {

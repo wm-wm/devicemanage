@@ -2227,3 +2227,513 @@ org.springframework.expression.spel.SpelEvaluationException: EL1011E: Method cal
 2022-07-02 15:09:49.926  INFO 10768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2022-07-02 15:16:03.385  INFO 10768 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-07-02 15:16:03.388  INFO 10768 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 16:12:37.788  INFO 18804 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 18804 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 16:12:37.789  INFO 18804 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 16:12:37.857  INFO 18804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 16:12:37.858  INFO 18804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 16:12:39.373  INFO 18804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 16:12:39.383  INFO 18804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 16:12:39.383  INFO 18804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 16:12:39.677  INFO 18804 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 16:12:39.683  INFO 18804 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 16:12:39.683  INFO 18804 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1825 ms
+2022-07-02 16:12:39.799  INFO 18804 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 16:12:39.923  INFO 18804 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 16:12:40.515  INFO 18804 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 16:12:40.620  INFO 18804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 16:12:40.638  INFO 18804 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 3.808 seconds (JVM running for 5.659)
+2022-07-02 16:12:48.070  INFO 18804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 16:12:48.072  INFO 18804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 16:12:48.078  INFO 18804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-07-02 16:12:48.094  WARN 18804 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /
+2022-07-02 16:12:48.399  WARN 18804 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2022-07-02 16:13:18.000  WARN 18804 --- [http-nio-8080-exec-8] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [190] milliseconds.
+2022-07-02 16:15:23.214  WARN 18804 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:15:25.374  WARN 18804 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:15:33.088  WARN 18804 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:15:45.677  WARN 18804 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "种类2"]
+2022-07-02 16:17:35.859  WARN 18804 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:17:41.934  WARN 18804 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:25:50.110  INFO 18804 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 16:25:50.132  INFO 18804 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 16:26:01.190  INFO 11416 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 11416 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 16:26:01.191  INFO 11416 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 16:26:01.244  INFO 11416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 16:26:01.244  INFO 11416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 16:26:02.204  INFO 11416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 16:26:02.213  INFO 11416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 16:26:02.214  INFO 11416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 16:26:02.476  INFO 11416 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 16:26:02.482  INFO 11416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 16:26:02.482  INFO 11416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1237 ms
+2022-07-02 16:26:02.510  WARN 11416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Cannot deserialize session attribute [e] for session [756E04B740DA03A6EFD0A79C586367EF]
+2022-07-02 16:26:02.572  INFO 11416 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 16:26:02.658  INFO 11416 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 16:26:03.132  INFO 11416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 16:26:03.186  INFO 11416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 16:26:03.196  INFO 11416 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.479 seconds (JVM running for 3.692)
+2022-07-02 16:26:38.216  INFO 11416 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 16:26:38.216  INFO 11416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 16:26:38.217  INFO 11416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 16:26:38.919  WARN 11416 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:27:06.612  WARN 11416 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:36:49.866  INFO 11416 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 16:36:49.899  INFO 11416 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 16:36:55.780  INFO 18676 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 18676 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 16:36:55.780  INFO 18676 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 16:36:55.828  INFO 18676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 16:36:55.829  INFO 18676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 16:36:57.059  INFO 18676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 16:36:57.068  INFO 18676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 16:36:57.068  INFO 18676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 16:36:57.324  INFO 18676 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 16:36:57.344  INFO 18676 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 16:36:57.344  INFO 18676 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1515 ms
+2022-07-02 16:36:57.436  INFO 18676 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 16:36:57.525  INFO 18676 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 16:36:57.998  INFO 18676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 16:36:58.058  INFO 18676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 16:36:58.070  INFO 18676 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.764 seconds (JVM running for 4.289)
+2022-07-02 16:37:00.155  INFO 18676 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 16:37:00.156  INFO 18676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 16:37:00.157  INFO 18676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 16:50:05.967  INFO 18676 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 16:50:05.984  INFO 18676 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 16:50:14.203  INFO 16796 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 16796 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 16:50:14.203  INFO 16796 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 16:50:14.259  INFO 16796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 16:50:14.259  INFO 16796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 16:50:15.451  INFO 16796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 16:50:15.459  INFO 16796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 16:50:15.459  INFO 16796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 16:50:15.695  INFO 16796 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 16:50:15.701  INFO 16796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 16:50:15.701  INFO 16796 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1442 ms
+2022-07-02 16:50:15.850  INFO 16796 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 16:50:15.937  INFO 16796 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 16:50:16.435  INFO 16796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 16:50:16.491  INFO 16796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 16:50:16.500  INFO 16796 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.779 seconds (JVM running for 3.989)
+2022-07-02 16:50:27.566  INFO 16796 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 16:50:27.566  INFO 16796 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 16:50:27.567  INFO 16796 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 16:50:35.922  WARN 16796 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:50:57.072  WARN 16796 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:54:02.379  INFO 16796 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 16:54:02.383  INFO 16796 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 16:54:06.306  INFO 18508 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 18508 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 16:54:06.307  INFO 18508 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 16:54:06.363  INFO 18508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 16:54:06.364  INFO 18508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 16:54:07.640  INFO 18508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 16:54:07.648  INFO 18508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 16:54:07.648  INFO 18508 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 16:54:07.796  INFO 18508 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 16:54:07.802  INFO 18508 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 16:54:07.803  INFO 18508 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1438 ms
+2022-07-02 16:54:07.887  INFO 18508 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 16:54:07.967  INFO 18508 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 16:54:08.471  INFO 18508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 16:54:08.524  INFO 18508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 16:54:08.533  INFO 18508 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.617 seconds (JVM running for 3.577)
+2022-07-02 16:54:10.550  INFO 18508 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 16:54:10.551  INFO 18508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 16:54:10.552  INFO 18508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 16:55:00.439  WARN 18508 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /js/layui.js
+2022-07-02 16:55:01.569 ERROR 18508 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'cid' cannot be null
+### The error may exist in file [G:\GitHubClone\test1\target\classes\mybatis\EquipmentMapper.xml]
+### The error may involve com.example.yuan.dao.EquipmentDao.InsertEquipment-Inline
+### The error occurred while setting parameters
+### SQL: insert into equipment(ename,cid,flag)             values (?,?,0)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'cid' cannot be null
+; Column 'cid' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'cid' cannot be null] with root cause
+
+java.sql.SQLIntegrityConstraintViolationException: Column 'cid' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371) ~[mysql-connector-java-8.0.27.jar:8.0.27]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483) ~[druid-1.2.11.jar:1.2.11]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.9.jar:3.5.9]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64) ~[mybatis-3.5.9.jar:3.5.9]
+	at jdk.proxy2/jdk.proxy2.$Proxy84.update(Unknown Source) ~[na:na]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181) ~[mybatis-3.5.9.jar:3.5.9]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at jdk.proxy2/jdk.proxy2.$Proxy63.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.9.jar:3.5.9]
+	at jdk.proxy3/jdk.proxy3.$Proxy66.InsertEquipment(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy3/jdk.proxy3.$Proxy67.InsertEquipment(Unknown Source) ~[na:na]
+	at com.example.yuan.service.serviceImpl.EquipmentServiceImpl.InsertEquipment(EquipmentServiceImpl.java:26) ~[classes/:na]
+	at com.example.yuan.controller.EquipmentController.EquipmentInformationInsert(EquipmentController.java:74) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-02 16:56:06.530  INFO 18508 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 16:56:06.552  INFO 18508 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:17:59.205  INFO 10188 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 10188 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:17:59.229  INFO 10188 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:17:59.270  INFO 10188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:17:59.271  INFO 10188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:18:00.430  INFO 10188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:18:00.438  INFO 10188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:18:00.438  INFO 10188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:18:00.636  INFO 10188 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:18:00.650  INFO 10188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:18:00.650  INFO 10188 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1378 ms
+2022-07-02 17:18:00.764  INFO 10188 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:18:00.846  INFO 10188 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:18:01.347  INFO 10188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:18:01.403  INFO 10188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:18:01.413  INFO 10188 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.913 seconds (JVM running for 3.991)
+2022-07-02 17:18:10.776  INFO 10188 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:18:10.776  INFO 10188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:18:10.778  INFO 10188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-07-02 17:18:10.953  WARN 10188 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:10.975  WARN 10188 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:10.975  WARN 10188 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:18:10.975  WARN 10188 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:15.245  WARN 10188 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:15.258  WARN 10188 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:18:15.259  WARN 10188 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:15.259  WARN 10188 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:19.142  WARN 10188 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:19.160  WARN 10188 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:18:19.160  WARN 10188 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:19.160  WARN 10188 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:19.950  WARN 10188 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:19.968  WARN 10188 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:18:19.968  WARN 10188 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:19.968  WARN 10188 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:20.452  WARN 10188 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:20.470  WARN 10188 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:18:20.470  WARN 10188 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:20.470  WARN 10188 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:20.931  WARN 10188 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:20.968  WARN 10188 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:20.968  WARN 10188 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:20.968  WARN 10188 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:18:21.772  WARN 10188 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:21.790  WARN 10188 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:18:21.790  WARN 10188 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:21.790  WARN 10188 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:22.306  WARN 10188 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:22.325  WARN 10188 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:22.325  WARN 10188 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:18:22.325  WARN 10188 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:22.815  WARN 10188 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:22.835  WARN 10188 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:22.835  WARN 10188 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:18:22.835  WARN 10188 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:23.133  WARN 10188 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:18:23.151  WARN 10188 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:18:23.151  WARN 10188 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:18:23.151  WARN 10188 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:09.085  INFO 10188 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:20:09.087  INFO 10188 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:20:12.950  INFO 1496 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 1496 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:20:12.952  INFO 1496 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:20:13.009  INFO 1496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:20:13.009  INFO 1496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:20:14.166  INFO 1496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:20:14.175  INFO 1496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:20:14.175  INFO 1496 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:20:14.326  INFO 1496 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:20:14.335  INFO 1496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:20:14.336  INFO 1496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1326 ms
+2022-07-02 17:20:14.436  INFO 1496 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:20:14.523  INFO 1496 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:20:14.903  INFO 1496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:20:14.963  INFO 1496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:20:14.971  INFO 1496 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.531 seconds (JVM running for 3.508)
+2022-07-02 17:20:23.226  INFO 1496 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:20:23.227  INFO 1496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:20:23.228  INFO 1496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 17:20:23.412  WARN 1496 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:23.429  WARN 1496 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:23.429  WARN 1496 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:23.429  WARN 1496 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:24.244  WARN 1496 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:24.259  WARN 1496 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:24.259  WARN 1496 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:24.259  WARN 1496 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:24.883  WARN 1496 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:24.900  WARN 1496 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:24.900  WARN 1496 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:24.900  WARN 1496 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:25.044  WARN 1496 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:25.058  WARN 1496 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:25.058  WARN 1496 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:25.058  WARN 1496 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:25.212  WARN 1496 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:25.226  WARN 1496 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:25.226  WARN 1496 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:25.226  WARN 1496 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:25.353  WARN 1496 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:25.371  WARN 1496 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:25.371  WARN 1496 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:25.371  WARN 1496 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:25.520  WARN 1496 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:25.536  WARN 1496 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:25.536  WARN 1496 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:25.536  WARN 1496 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:25.665  WARN 1496 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:25.682  WARN 1496 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:25.682  WARN 1496 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:25.682  WARN 1496 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:25.825  WARN 1496 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:25.844  WARN 1496 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:20:25.844  WARN 1496 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:25.844  WARN 1496 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:27.938  WARN 1496 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:20:27.951  WARN 1496 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:20:27.951  WARN 1496 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:20:27.951  WARN 1496 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:21:15.987  INFO 1496 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:21:15.988  INFO 1496 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:21:19.557  INFO 1556 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 1556 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:21:19.559  INFO 1556 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:21:19.605  INFO 1556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:21:19.605  INFO 1556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:21:20.476  INFO 1556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:21:20.485  INFO 1556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:21:20.486  INFO 1556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:21:20.623  INFO 1556 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:21:20.629  INFO 1556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:21:20.629  INFO 1556 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1023 ms
+2022-07-02 17:21:20.709  INFO 1556 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:21:20.808  INFO 1556 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:21:21.208  INFO 1556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:21:21.262  INFO 1556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:21:21.271  INFO 1556 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.139 seconds (JVM running for 3.346)
+2022-07-02 17:21:29.851  INFO 1556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:21:29.851  INFO 1556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:21:29.852  INFO 1556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 17:21:29.998  WARN 1556 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:21:30.012  WARN 1556 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:21:30.012  WARN 1556 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:21:30.012  WARN 1556 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:21:30.876  WARN 1556 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:21:30.892  WARN 1556 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:21:30.892  WARN 1556 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:21:30.892  WARN 1556 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:22:39.191  INFO 1556 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:22:39.192  INFO 1556 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:22:43.002  INFO 19412 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 19412 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:22:43.003  INFO 19412 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:22:43.055  INFO 19412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:22:43.055  INFO 19412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:22:43.949  INFO 19412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:22:43.959  INFO 19412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:22:43.959  INFO 19412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:22:44.167  INFO 19412 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:22:44.178  INFO 19412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:22:44.178  INFO 19412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1123 ms
+2022-07-02 17:22:44.295  INFO 19412 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:22:44.381  INFO 19412 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:22:44.968  INFO 19412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:22:45.022  INFO 19412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:22:45.034  INFO 19412 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.398 seconds (JVM running for 3.301)
+2022-07-02 17:22:48.621  INFO 19412 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:22:48.621  INFO 19412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:22:48.622  INFO 19412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 17:22:48.790  WARN 19412 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jq-module/jquery.particleground.min.js
+2022-07-02 17:22:48.791  WARN 19412 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/css/layui.css
+2022-07-02 17:22:48.790  WARN 19412 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/jquery-3.4.1/jquery-3.4.1.min.js
+2022-07-02 17:22:48.797  WARN 19412 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/layui-v2.6.3/layui.js
+2022-07-02 17:24:40.257  INFO 19412 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:24:40.259  INFO 19412 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:24:44.481  INFO 3372 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 3372 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:24:44.482  INFO 3372 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:24:44.532  INFO 3372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:24:44.532  INFO 3372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:24:45.464  INFO 3372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:24:45.471  INFO 3372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:24:45.471  INFO 3372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:24:45.636  INFO 3372 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:24:45.643  INFO 3372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:24:45.643  INFO 3372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1110 ms
+2022-07-02 17:24:45.775  INFO 3372 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:24:45.846  INFO 3372 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:24:46.228  INFO 3372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:24:46.279  INFO 3372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:24:46.288  INFO 3372 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.351 seconds (JVM running for 3.332)
+2022-07-02 17:24:49.270  INFO 3372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:24:49.270  INFO 3372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:24:49.271  INFO 3372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 17:26:02.435  INFO 3372 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:26:02.436  INFO 3372 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:26:06.336  INFO 16336 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 16336 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:26:06.337  INFO 16336 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:26:06.385  INFO 16336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:26:06.386  INFO 16336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:26:07.557  INFO 16336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:26:07.563  INFO 16336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:26:07.563  INFO 16336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:26:07.694  INFO 16336 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:26:07.699  INFO 16336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:26:07.700  INFO 16336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1314 ms
+2022-07-02 17:26:07.788  INFO 16336 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:26:07.855  INFO 16336 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:26:08.258  INFO 16336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:26:08.335  INFO 16336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:26:08.344  INFO 16336 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.474 seconds (JVM running for 3.406)
+2022-07-02 17:26:15.413  INFO 16336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:26:15.414  INFO 16336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:26:15.415  INFO 16336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 17:26:29.531  INFO 16336 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:26:29.532  INFO 16336 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:26:34.652  INFO 16676 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 16676 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:26:34.653  INFO 16676 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:26:34.720  INFO 16676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:26:34.721  INFO 16676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:26:35.998  INFO 16676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:26:36.012  INFO 16676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:26:36.013  INFO 16676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:26:36.210  INFO 16676 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:26:36.220  INFO 16676 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:26:36.220  INFO 16676 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1499 ms
+2022-07-02 17:26:36.326  INFO 16676 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:26:36.409  INFO 16676 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:26:36.909  INFO 16676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:26:36.976  INFO 16676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:26:36.988  INFO 16676 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.905 seconds (JVM running for 4.381)
+2022-07-02 17:26:39.324  INFO 16676 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:26:39.324  INFO 16676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:26:39.329  INFO 16676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-07-02 17:27:11.715  INFO 16676 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:27:11.716  INFO 16676 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:27:15.606  INFO 14884 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 14884 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:27:15.607  INFO 14884 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:27:15.653  INFO 14884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:27:15.653  INFO 14884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:27:16.552  INFO 14884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:27:16.560  INFO 14884 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:27:16.561  INFO 14884 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:27:16.749  INFO 14884 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:27:16.755  INFO 14884 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:27:16.756  INFO 14884 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1102 ms
+2022-07-02 17:27:16.913  INFO 14884 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:27:16.995  INFO 14884 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:27:17.512  INFO 14884 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:27:17.571  INFO 14884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:27:17.580  INFO 14884 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.39 seconds (JVM running for 3.278)
+2022-07-02 17:27:18.641  INFO 14884 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:27:18.642  INFO 14884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:27:18.643  INFO 14884 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 17:30:25.516  INFO 14884 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:30:25.517  INFO 14884 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:30:33.277  INFO 10576 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 10576 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:30:33.278  INFO 10576 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:30:33.343  INFO 10576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:30:33.343  INFO 10576 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:30:34.520  INFO 10576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:30:34.527  INFO 10576 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:30:34.527  INFO 10576 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:30:34.692  INFO 10576 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:30:34.698  INFO 10576 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:30:34.699  INFO 10576 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1355 ms
+2022-07-02 17:30:34.804  INFO 10576 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:30:34.893  INFO 10576 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:30:35.434  INFO 10576 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:30:35.498  INFO 10576 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:30:35.510  INFO 10576 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 2.785 seconds (JVM running for 3.914)
+2022-07-02 17:30:37.827  INFO 10576 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:30:37.828  INFO 10576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:30:37.829  INFO 10576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 17:34:30.852  INFO 10576 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:34:30.853  INFO 10576 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-02 17:34:35.918  INFO 11320 --- [restartedMain] com.example.yuan.Test1Application        : Starting Test1Application using Java 17.0.1 on LAPTOP-KT6271DE with PID 11320 (G:\GitHubClone\test1\target\classes started by Lenovo in G:\GitHubClone)
+2022-07-02 17:34:35.919  INFO 11320 --- [restartedMain] com.example.yuan.Test1Application        : No active profile set, falling back to default profiles: default
+2022-07-02 17:34:35.959  INFO 11320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-02 17:34:35.959  INFO 11320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-02 17:34:36.764  INFO 11320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-02 17:34:36.770  INFO 11320 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-02 17:34:36.770  INFO 11320 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-07-02 17:34:36.902  INFO 11320 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-02 17:34:36.907  INFO 11320 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-02 17:34:36.907  INFO 11320 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 947 ms
+2022-07-02 17:34:36.985  INFO 11320 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-02 17:34:37.059  INFO 11320 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-02 17:34:37.430  INFO 11320 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-02 17:34:37.482  INFO 11320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-02 17:34:37.491  INFO 11320 --- [restartedMain] com.example.yuan.Test1Application        : Started Test1Application in 1.968 seconds (JVM running for 2.777)
+2022-07-02 17:34:45.378  INFO 11320 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-02 17:34:45.378  INFO 11320 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-02 17:34:45.379  INFO 11320 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-02 17:45:34.043  INFO 11320 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-02 17:45:34.045  INFO 11320 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -6,8 +6,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: 926464wm
-    url: jdbc:mysql://localhost:3306/devicemanage1
+    password: 123456
+    url: jdbc:mysql://localhost:3306/equipment
   thymeleaf:
     cache: false
   web:
