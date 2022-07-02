@@ -1,0 +1,25 @@
+.pannel-div{
+    width: 450px;
+    float: left;
+    height: 100%;
+    margin: 50px auto;
+}
+.search .in{
+    width:300px;
+    height:36px;
+    border:2px solid blue;
+    padding-left: 10px;
+    border-radius: 0px;
+    outline:none;
+    font:16px/34px "microsoft yahei";
+}
+.search .btn_search{
+    background:blue;
+    width:80px;
+    height:42px;
+    color:white;
+    border-radius: 0px;
+    border:none;
+    outline:none;
+    font-size: 16px;
+}

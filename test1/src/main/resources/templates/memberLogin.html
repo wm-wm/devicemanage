@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>普通用户登录</title>
+    <link rel="stylesheet" href="//unpkg.com/layui@2.6.8/dist/css/layui.css"/>
+    <!--login-->
+    <script type="../js/layui.js">
+        function checkSubmit(loginForm) {
+            if (loginForm.adminAccount.value == '') {
+                alert("请输入账号");
+                loginForm.adminAccount.focus();
+                return false;
+            }
+            if (loginForm.adminPassword.value == '') {
+                alert("请输入密码");
+                loginForm.adminPassword.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body class="layui-bg-blue">
+<!--类-->
+    <div class="layui-card-header"><h3>用户登录</h3></div>
+        <div class="layui-card-body">
+            <form class="layui-form" th:action="@{/toMemberMain}"  method="get" name="loginForm">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <label class="layui-form-label">账号:</label>
+                        <input type="text" name="Mid"   lay-verify="required" placeholder="请输入账号"
+                            autocomplete="off" class="layui-input">
+                        <label class="layui-form-label">密码:</label>
+                        <input type="password" name="Mpw" required lay-verify="required"
+                               placeholder="请输入密码" autocomplete="off" class="layui-input">
+                    </div>
+                    <div class="layui-input-inline">
+
+                    </div>
+
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button  type="submit"class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+
+                <div class="layui-input-block">
+                    <div>
+                        <a class="layui-btn layui-btn-primary" th:href="@{/toSupervisor}">管理者</a>
+                        <!--<a class="layui-btn layui-btn-primary" th:href="@{/equip/teacher}">教师</a>-->
+                    </div>
+                </div>
+                </form>
+
+
+             </div>
+        </div>
+</body>
+</html>

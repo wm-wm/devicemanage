@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC  "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yuan.dao.EquipmentDao">
+    <!-- 查询仪器信息 -->
+    <select id="SelectAllEquipment" resultType="com.example.yuan.pojo.Equipment">
+        select lname,cname,eid,ename,fname
+        from laboratory,category,equipment,flag
+        where equipment.cid = category.cid
+          and category.lid = laboratory.lid
+            and equipment.flag = flag.flag
+    </select>
+    <!-- 添加仪器信息 -->
+    <insert id="InsertEquipment" parameterType="com.example.yuan.pojo.Equipment">
+        insert into equipment(ename,cid,flag)
+            values (#{ename},#{cid},0)
+    </insert>
+
+    <!-- 删除仪器 -->
+    <delete id="DeleteEquipment" parameterType="int">
+        delete  from equipment
+        where eid = #{eid};
+    </delete>
+    <!-- 修改仪器信息 -->
+    <update id="UpdateEquipment" parameterType="com.example.yuan.pojo.Equipment">
+        update equipment,category
+        set ename = #{ename},equipment.cid = (select category.cid from category where cname = #{cname})
+        where eid = #{eid}
+          and equipment.cid = category.cid
+    </update>
+
+    <!-- 根据eid查询仪器 -->
+    <select id="SelectEquipmentByEid" parameterType="int" resultType="com.example.yuan.pojo.Equipment">
+        select lname,cname,eid,ename
+        from laboratory,category,equipment
+        where eid = #{eid}
+          and equipment.cid = category.cid
+          and category.lid = laboratory.lid;
+    </select>
+
+    <select id="equipmentAll" resultType="Equipment">
+        select *
+        from equipment
+    </select>
+    <select id="equipmentOfEid" resultType="Equipment">
+        select *
+        from equipment
+        where eid = #{eid}
+    </select>
+    <update id="updatFlag" parameterType="java.lang.Integer">
+        update equipment
+        set flag=#{Flag}
+        where eid=#{Eid}
+    </update>
+</mapper>

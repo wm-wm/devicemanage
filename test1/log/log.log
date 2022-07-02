@@ -1,0 +1,99 @@
+2022-06-27 10:38:16.489  INFO 3908 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 3908 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 10:38:16.495  INFO 3908 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 10:38:18.275  INFO 3908 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 10:38:18.275  INFO 3908 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 10:38:18.277  INFO 3908 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 10:38:18.306  INFO 3908 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.371 seconds (JVM running for 3.422)
+2022-06-27 14:06:22.465  INFO 14932 --- [main] c.e.y.controller.MemberControllerTest    : Starting MemberControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 14932 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:06:22.467  INFO 14932 --- [main] c.e.y.controller.MemberControllerTest    : No active profile set, falling back to default profiles: default
+2022-06-27 14:06:24.393  INFO 14932 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:06:24.394  INFO 14932 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:06:24.395  INFO 14932 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 14:06:24.429  INFO 14932 --- [main] c.e.y.controller.MemberControllerTest    : Started MemberControllerTest in 2.619 seconds (JVM running for 3.957)
+2022-06-27 14:12:25.380  INFO 13088 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 13088 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:12:25.381  INFO 13088 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:12:27.053  INFO 13088 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:12:27.053  INFO 13088 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:12:27.054  INFO 13088 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 14:12:27.088  INFO 13088 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.303 seconds (JVM running for 3.541)
+2022-06-27 14:13:01.792  INFO 8864 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 8864 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:13:01.793  INFO 8864 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:13:03.573  INFO 8864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:13:03.574  INFO 8864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:13:03.575  INFO 8864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 14:13:03.605  INFO 8864 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.36 seconds (JVM running for 3.571)
+2022-06-27 14:13:35.993  INFO 4336 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 4336 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:13:35.994  INFO 4336 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:13:37.779  INFO 4336 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:13:37.779  INFO 4336 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:13:37.781  INFO 4336 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 14:13:37.812  INFO 4336 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.407 seconds (JVM running for 3.654)
+2022-06-27 14:16:23.059  INFO 5648 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 5648 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:16:23.060  INFO 5648 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:16:24.816  INFO 5648 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:16:24.816  INFO 5648 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:16:24.818  INFO 5648 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 14:16:24.852  INFO 5648 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.322 seconds (JVM running for 3.486)
+2022-06-27 14:16:24.927  WARN 5648 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "eid"]
+2022-06-27 14:17:02.899  INFO 11484 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 11484 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:17:02.900  INFO 11484 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:17:04.694  INFO 11484 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:17:04.694  INFO 11484 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:17:04.696  INFO 11484 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 14:17:04.727  INFO 11484 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.398 seconds (JVM running for 3.634)
+2022-06-27 14:21:36.034  INFO 16264 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 16264 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:21:36.035  INFO 16264 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:21:37.854  INFO 16264 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:21:37.854  INFO 16264 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:21:37.855  INFO 16264 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 14:21:37.886  INFO 16264 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.36 seconds (JVM running for 3.506)
+2022-06-27 14:27:33.951  INFO 13424 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 13424 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:27:33.953  INFO 13424 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:27:35.696  INFO 13424 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:27:35.697  INFO 13424 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:27:35.698  INFO 13424 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 14:27:35.729  INFO 13424 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.413 seconds (JVM running for 3.643)
+2022-06-27 14:28:17.486  INFO 13736 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 13736 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:28:17.487  INFO 13736 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:28:19.206  INFO 13736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:28:19.206  INFO 13736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:28:19.208  INFO 13736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-06-27 14:28:19.247  INFO 13736 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.274 seconds (JVM running for 3.38)
+2022-06-27 14:29:17.458  INFO 14444 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 14444 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:29:17.459  INFO 14444 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:29:19.173  INFO 14444 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:29:19.173  INFO 14444 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:29:19.175  INFO 14444 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-06-27 14:29:19.209  INFO 14444 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.265 seconds (JVM running for 3.404)
+2022-06-27 14:29:19.295  WARN 14444 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "eid"]
+2022-06-27 14:29:39.934  INFO 13180 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 13180 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:29:39.935  INFO 13180 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:29:41.730  INFO 13180 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:29:41.731  INFO 13180 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:29:41.732  INFO 13180 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 14:29:41.773  INFO 13180 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.456 seconds (JVM running for 3.607)
+2022-06-27 14:29:41.833  WARN 13180 --- [main] o.s.web.servlet.PageNotFound             : No mapping for GET /delete
+2022-06-27 14:36:40.607  INFO 13684 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 13684 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:36:40.608  INFO 13684 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:36:42.332  INFO 13684 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:36:42.332  INFO 13684 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:36:42.334  INFO 13684 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-06-27 14:36:42.365  INFO 13684 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.285 seconds (JVM running for 3.476)
+2022-06-27 14:43:08.741  INFO 8364 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 8364 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:43:08.742  INFO 8364 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:43:10.479  INFO 8364 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:43:10.480  INFO 8364 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:43:10.482  INFO 8364 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-06-27 14:43:10.517  INFO 8364 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.319 seconds (JVM running for 3.462)
+2022-06-27 14:59:11.427  INFO 5816 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 5816 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 14:59:11.428  INFO 5816 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 14:59:13.111  INFO 5816 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 14:59:13.112  INFO 5816 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 14:59:13.114  INFO 5816 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-06-27 14:59:13.145  INFO 5816 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.23 seconds (JVM running for 3.355)
+2022-06-27 19:23:59.220  INFO 15640 --- [main] c.e.y.c.EquipmentControllerTest          : Starting EquipmentControllerTest using Java 16.0.2 on LAPTOP-KT6271DE with PID 15640 (started by Lenovo in D:\qq\2408772544\FileRecv\chen\chen\test1)
+2022-06-27 19:23:59.222  INFO 15640 --- [main] c.e.y.c.EquipmentControllerTest          : No active profile set, falling back to default profiles: default
+2022-06-27 19:24:01.166  INFO 15640 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-27 19:24:01.166  INFO 15640 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-27 19:24:01.167  INFO 15640 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-27 19:24:01.198  INFO 15640 --- [main] c.e.y.c.EquipmentControllerTest          : Started EquipmentControllerTest in 2.609 seconds (JVM running for 3.968)

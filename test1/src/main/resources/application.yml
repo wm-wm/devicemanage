@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 926464wm
+    url: jdbc:mysql://localhost:3306/devicemanage1
+  thymeleaf:
+    cache: false
+  web:
+    resources:
+      static-locations: classpath:/static/
+  mvc:
+    static-path-pattern: /static/**
+
+
+
+mybatis:
+  type-aliases-package: com.example.yuan.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:/mybatis/*.xml
+
+logging:
+  file:
+    name: log/log.log
+  level:
+    root: info
+    cyw.test1: debug
+
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC  "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yuan.dao.TeacherDao">
+    <!-- 查询老师信息 -->
+    <select id="SelectAllTeacher" resultType="com.example.yuan.pojo.Teacher">
+        select tid,tname,tmail,tpw,lname
+        from teacher,laboratory
+        where teacher.lid = laboratory.lid;
+    </select>
+    <!-- 修改老师信息 -->
+    <update id="UpdateTeacher" parameterType="com.example.yuan.pojo.Teacher">
+        update teacher
+        set tname = #{tname},tmail = #{tmail},tpw = #{tpw},
+            lid = (select lid from laboratory where lname = #{lname})
+        where tid = #{tid}
+    </update>
+    <delete id="DeleteTeacher" parameterType="java.lang.Integer">
+        delete from teacher
+        where tid=#{tid}
+    </delete>
+</mapper>
