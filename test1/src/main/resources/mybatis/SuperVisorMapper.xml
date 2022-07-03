@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC  "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yuan.dao.SuperVisorDao">
+    <select id="selectSuperVisor" resultType="com.example.yuan.pojo.SuperVisor" parameterType="java.lang.Override">
+        select *
+        from supervisor
+        where sid=#{sid} and spw=#{spw}
+    </select>
+</mapper>

@@ -21,7 +21,7 @@ public interface TeacherService {
     public Teacher findUser(int tid);
 
 
-
+    Integer teacherAccount();
     //添加教师信息(教师注册)
     public boolean InsertTeacher(Integer tid,String tname,String tmail,Integer lid,String tpw);
 }

@@ -36,6 +36,11 @@ public class MemberServiceImpl implements MemberService {
         Member m=memberDao.memberLogin(member);
         return m;
     }
+    //数目
+    @Override
+    public  Integer selectAccount(){
+        return memberDao.selectAccount();
+    }
 
     //修改用户信息
     public boolean memberModify(Integer mid,String mname,String mmail,String mpw)
@@ -49,5 +54,10 @@ public class MemberServiceImpl implements MemberService {
         {
             return false;
         }
+    }
+    //增加一个用户
+    @Override
+    public  void addMember(Integer mid,String Mname,String Mmail,String mpw){
+        memberDao.addMember(mid,Mname,Mmail,mpw);
     }
 }

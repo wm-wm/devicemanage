@@ -35,28 +35,24 @@
 <div class="layui-container">
     <div class="admin-login-background">
         <div class="layui-form login-form">
-            <form class="layui-form" action="">
+            <form class="layui-form" th:action="memberRegister">
                 <div class="layui-form-item logo-title">
                     <h1>用户注册</h1>
                 </div>
-                <div class="layui-form-item">
-                    <label class="layui-icon layui-icon-username" for="username"></label>
-                    <input type="text" name="username" lay-verify="required|account" placeholder="用户名" autocomplete="off" class="layui-input" value="">
-                </div>
 				<div class="layui-form-item">
-				    <label class="layui-icon layui-icon-friends" for="mname"></label>
-				    <input type="text" name="password" lay-verify="required|mname" placeholder="昵称" autocomplete="off" class="layui-input" value="">
+				    <label class="layui-icon layui-icon-friends" ></label>
+				    <input type="text" name="Mname" lay-verify="required|mname" placeholder="昵称" autocomplete="off" class="layui-input" value="">
 				</div>
 				<div class="layui-form-item">
-				    <label class="layui-icon layui-icon-email" for="mmail"></label>
-				    <input type="text" name="password" lay-verify="required|mmail" placeholder="邮箱" autocomplete="off" class="layui-input" value="">
+				    <label class="layui-icon layui-icon-email" ></label>
+				    <input type="text" name="Mmail" lay-verify="required|mmail" placeholder="邮箱" autocomplete="off" class="layui-input" value="">
 				</div>
                 <div class="layui-form-item">
-                    <label class="layui-icon layui-icon-password" for="password1"></label>
-                    <input type="password" name="password" lay-verify="required|password" placeholder="密码" autocomplete="off" class="layui-input" value="">
+                    <label class="layui-icon layui-icon-password" ></label>
+                    <input type="password" name="Mpw" lay-verify="required|password" placeholder="密码" autocomplete="off" class="layui-input" value="">
                 </div>
 				<div class="layui-form-item">
-				    <label class="layui-icon layui-icon-password" for="password2"></label>
+				    <label class="layui-icon layui-icon-password" ></label>
 				    <input type="password" name="password" lay-verify="required|password" placeholder="确认密码" autocomplete="off" class="layui-input" value="">
 				</div>
 				<div class="layui-form-item">

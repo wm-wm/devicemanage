@@ -25,6 +25,11 @@
     <!-- 教师信息添加 -->
     <insert id="InsertTeacher" parameterType="com.example.yuan.pojo.Teacher">
         insert into teacher(tid,tname,tmail,lid,tpw)
-        values (4,#{tname},#{tmail},#{lid},#{tpw})
+        values (#{tid},#{tname},#{tmail},#{lid},#{tpw})
     </insert>
+
+    <select id="teacherAccount" resultType="java.lang.Integer">
+        select count(*)
+        from teacher
+    </select>
 </mapper>

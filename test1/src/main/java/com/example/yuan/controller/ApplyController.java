@@ -73,7 +73,7 @@ public class ApplyController {
         apply.setAend(Aend);
         apply.setAcomment("");
         apply.setAevaluate(Aevaluate);
-        apply.setFlag(1);
+        apply.setFlag(0);
         Integer Eid=apply.getEid();
         Integer Flag=1;
         equipmentService.updatFlag(Eid,Flag);
@@ -120,6 +120,9 @@ public class ApplyController {
             applies.get(i).setMname(member.getMname());
             Equipment equipment=equipmentService.SelectEquipmentByEid(applies.get(i).getEid());
             applies.get(i).setEname(equipment.getEname());
+            if(applies.get(i).getFlag()==1)
+                applies.get(i).setFlagss("已通过");
+            else applies.get(i).setFlagss("未通过");
         }
         model.addAttribute("applies",applies);
         return "SelectApply";
@@ -136,7 +139,6 @@ public class ApplyController {
     public String evaluate(Integer aid,String Acomment,Model model,HttpSession session){
         applyService.updateApply(aid,Acomment);
 
-
         model.addAttribute("name",session.getAttribute("name"));
         Member member = (Member) session.getAttribute("member");
         Integer mid=member.getMid();
@@ -147,8 +149,12 @@ public class ApplyController {
             applies.get(i).setMname(member.getMname());
             Equipment equipment=equipmentService.SelectEquipmentByEid(applies.get(i).getEid());
             applies.get(i).setEname(equipment.getEname());
+            if(applies.get(i).getFlag()==1)
+                applies.get(i).setFlagss("已通过");
+            else applies.get(i).setFlagss("未通过");
         }
         model.addAttribute("applies",applies);
+
         return "SelectApply";
     }
 }

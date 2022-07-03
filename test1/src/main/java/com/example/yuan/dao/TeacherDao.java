@@ -21,7 +21,9 @@ public interface TeacherDao {
     //删除老师信息
     public int DeleteTeacher(Integer tid);
 
-    //
+
+    //计数
+    Integer teacherAccount();
 
     @Select("SELECT tid,tname,lid,tpw FROM teacher WHERE teacher.tid=#{tid};")
     public Teacher findTeacher(@Param("tid")int tid);

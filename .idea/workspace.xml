@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41b90d61-4623-4be3-8e99-315619ff0954" name="变更" comment="equipment：修复了仪器无法修改的bug">
-      <change afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberInformationModify.html" afterDir="false" />
+    <list default="true" id="41b90d61-4623-4be3-8e99-315619ff0954" name="变更" comment="member:增加浏览自己的申请和评价等功能">
+      <change afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/SuperVisorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/pojo/SuperVisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/SuperVisorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/serviceImpl/SuperVisorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1/src/main/resources/mybatis/SuperVisorMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea261cb6-8e68-4923-9e17-ce1c68d165b5/storage_v2/_src_/schema/basesql1.dDJymQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea261cb6-8e68-4923-9e17-ce1c68d165b5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea261cb6-8e68-4923-9e17-ce1c68d165b5/storage_v2/_src_/schema/javas.kZoDBg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea261cb6-8e68-4923-9e17-ce1c68d165b5/storage_v2/_src_/schema/lastsurvey.cHFHqg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea261cb6-8e68-4923-9e17-ce1c68d165b5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea261cb6-8e68-4923-9e17-ce1c68d165b5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea261cb6-8e68-4923-9e17-ce1c68d165b5/storage_v2/_src_/schema/s.cwAAAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea261cb6-8e68-4923-9e17-ce1c68d165b5/storage_v2/_src_/schema/software_development_survey.dtyIRA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ea261cb6-8e68-4923-9e17-ce1c68d165b5/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/ApplyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/ApplyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/RegisterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/MemberDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/TeacherDao.java" afterDir="false" />
@@ -29,7 +25,32 @@
       <change beforePath="$PROJECT_DIR$/test1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1/src/main/resources/mybatis/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/mybatis/MemberMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1/src/main/resources/mybatis/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/mybatis/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdminLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdminLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/AppointMentPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/AppointMentPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/CategoryAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/CategoryAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/InstrumentAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/InstrumentAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/InstrumentPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/InstrumentPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/Teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/Teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AllOfEquipment.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AllOfEquipment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/ApplyInformationSelect.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/ApplyInformationSelect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationInsert.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationInsert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationModify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationSelect.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationSelect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/Evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/Evaluate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MainLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MainLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MainMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MainMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberInformationModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberInformationModify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberInformationSelect.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberInformationSelect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberLogin1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberLogin1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/Request.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/Request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/SelectApply.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/SelectApply.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherInformationModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherInformationModify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherInformationSelect.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherInformationSelect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherLogin1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherLogin1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/equipmentUnexpected.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/equipmentUnexpected.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/memberMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/memberMain.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +61,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="spring-beans.schema" />
         <option value="Tag Library Descriptor" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -84,24 +105,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/GitHubClone/test1/src/main/resources/static/lib",
-    "spring.configuration.checksum": "5a105e8b9d40e1329780d62ea2265d8a"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo",
-      "mysql"
-    ]
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\GitHubClone\test1\src\main\resources\static\lib" />
@@ -198,21 +214,21 @@
     </configuration>
     <configuration name="Test1Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="test1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.yuan.Test1Application" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.yuan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.yuan.Test1Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Test1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="test1" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.yuan.Test1Application" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -318,6 +334,8 @@
       <workItem from="1656748242558" duration="179000" />
       <workItem from="1656749392506" duration="7320000" />
       <workItem from="1656767474497" duration="5952000" />
+      <workItem from="1656846605750" duration="341000" />
+      <workItem from="1656848872460" duration="10660000" />
     </task>
     <task id="LOCAL-00001" summary="更新页面">
       <created>1656733407193</created>
@@ -417,8 +435,22 @@
     <MESSAGE value="equipment：修复了仪器无法修改的bug" />
     <option name="LAST_COMMIT_MESSAGE" value="equipment：修复了仪器无法修改的bug" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/RegisterController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/devicemanage$Test1Application.ic" NAME="Test1Application 覆盖结果" MODIFIED="1656846700627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

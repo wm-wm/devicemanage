@@ -15,11 +15,13 @@ public interface MemberDao {
     Member memberLogin(Member member);
 
     //根据姓名查询用户
-
+    //数目
+    Integer selectAccount();
 
     //修改用户信息
     public int memberModify(Integer mid,String mname,String mmail,String mpw);
     //删除用户
     public int DeleteMember(Integer mid);
-
+    //增加一个用户
+    void addMember(Integer mid,String mname,String mmail,String mpw);
 }

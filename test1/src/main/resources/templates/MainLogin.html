@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>后台管理-登陆</title>
@@ -40,13 +40,13 @@
                     <h1>科研设备共享平台设计与实现</h1>
                 </div>
                 <div class="layui-form-item">
-                   <button class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="admin">管 理 员 登 入</button>
+                   <a  th:href="@{/toAdminLogin}" class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="admin">管 理 员 登 入</a>
                 </div>
 				<div class="layui-form-item">
-				    <button class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="teacher">教 师 登 入</button>
+				    <a th:href="@{/toTeacherLogin}" class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="teacher">教 师 登 入</a>
 				</div>
                 <div class="layui-form-item">
-                    <button class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="member">用 户 登 入</button>
+                    <a th:href="@{/toMemberLogin}" class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="member">用 户 登 入</a>
                 </div>
             </form>
         </div>

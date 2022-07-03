@@ -35,13 +35,9 @@
 <div class="layui-container">
     <div class="admin-login-background">
         <div class="layui-form login-form">
-            <form class="layui-form" action="">
+            <form class="layui-form" th:action="@{/TeacherRegister}">
                 <div class="layui-form-item logo-title">
                     <h1>教师注册</h1>
-                </div>
-                <div class="layui-form-item">
-                    <label class="layui-icon layui-icon-username" ></label>
-                    <input type="text" name="tid" lay-verify="required|account" placeholder="用户名" autocomplete="off" class="layui-input" value="">
                 </div>
 				<div class="layui-form-item">
 				    <label class="layui-icon layui-icon-friends" ></label>

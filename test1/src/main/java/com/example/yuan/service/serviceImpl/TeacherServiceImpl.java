@@ -63,6 +63,11 @@ public class TeacherServiceImpl implements TeacherService {
         return teacher;
     }
 
+    //
+    @Override
+    public Integer teacherAccount(){
+        return teacherDao.teacherAccount();
+    }
 
     //添加教师信息(教师注册)
     public boolean InsertTeacher(Integer tid,String tname,String tmail,Integer lid,String tpw)

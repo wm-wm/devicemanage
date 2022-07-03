@@ -30,7 +30,7 @@
                 </a>
                 <dl class="layui-nav-child">
                     <dd><a th:href="@{/toMemberMain}">个人中心</a></dd>
-                    <dd><a th:href="@{/toMember}">Sign out</a></dd>
+                    <dd><a th:href="@{/toMainLogin}">Sign out</a></dd>
                 </dl>
             </li>
             <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
@@ -72,6 +72,7 @@
                 <th>结束日期</th>
                 <th>申请理由</th>
                 <th>评价</th>
+                <th>审核状态</th>
                 <th>   </th>
             </tr>
             </thead>
@@ -82,6 +83,7 @@
                 <td th:text="${a.getAend()}"></td>
                 <td th:text="${a.getAevaluate()}"></td>
                 <td th:text="${a.getAcomment()}"></td>
+                <td th:text="${a.getFlagss()}"></td>
                 <td>
                     <a th:href="@{/toEvaluate(aid=${a.getAid()})}">
                         <input type="button" class="btn btn-sm btn-outline-primary" th:value="评价">

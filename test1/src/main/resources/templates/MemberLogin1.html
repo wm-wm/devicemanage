@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>后台管理-登陆</title>
@@ -35,24 +35,25 @@
 <div class="layui-container">
     <div class="admin-login-background">
         <div class="layui-form login-form">
-            <form class="layui-form" action="">
+            <form class="layui-form" th:action="@{/memberLogin}">
                 <div class="layui-form-item logo-title">
                     <h1>用户登录</h1>
                 </div>
                 <div class="layui-form-item">
-                    <label class="layui-icon layui-icon-username" for="username"></label>
-                    <input type="text" name="username" lay-verify="required|account" placeholder="用户名或者邮箱" autocomplete="off" class="layui-input" value="admin">
+                    <label class="layui-icon layui-icon-username" ></label>
+                    <input type="text" name="Mid" lay-verify="required|account" placeholder="用户名或者邮箱" autocomplete="off" class="layui-input" value="admin">
                 </div>
                 <div class="layui-form-item">
-                    <label class="layui-icon layui-icon-password" for="password"></label>
-                    <input type="password" name="password" lay-verify="required|password" placeholder="密码" autocomplete="off" class="layui-input" value="123456">
+                    <label class="layui-icon layui-icon-password" ></label>
+                    <input type="password" name="Mpw" lay-verify="required|password" placeholder="密码" autocomplete="off" class="layui-input" value="123456">
                 </div>
                 
 				<div class="layui-form-item">
-				<a href=""><button class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="login">登 入</button></a>    
-				</div>
+				    <a href="">
+                        <button type="submit" class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="login">登 入</button></a>
+				    </div>
 				<div class="layui-form-item">
-				 <a href=""><button class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="register">注 册</button></a>   
+				    <a th:href="@{/toMemberRegister}" class="layui-btn layui-btn layui-btn-normal layui-btn-fluid" lay-submit="" lay-filter="register">注 册</a>
 				</div>
             </form>
         </div>
@@ -78,7 +79,7 @@
         });
 
         // 进行登录操作
-        form.on('submit(login)', function (data) {
+        form.on('submit(login1)', function (data) {
             data = data.field;
             if (data.username == '') {
                 layer.msg('用户名不能为空');

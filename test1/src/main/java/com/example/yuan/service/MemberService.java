@@ -15,6 +15,12 @@ public interface MemberService {
 
     Member memberLogin(Member member);
 
+    //数目
+    Integer selectAccount();
+
     //修改用户信息
     public boolean memberModify(Integer mid,String mname,String mmail,String mpw);
+
+    //增加一个用户
+    void addMember(Integer mid,String Mname,String Mmail,String mpw);
 }
