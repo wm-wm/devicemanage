@@ -4,53 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41b90d61-4623-4be3-8e99-315619ff0954" name="变更" comment="member:增加浏览自己的申请和评价等功能">
-      <change afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/SuperVisorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/pojo/SuperVisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/SuperVisorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/serviceImpl/SuperVisorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1/src/main/resources/mybatis/SuperVisorMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="41b90d61-4623-4be3-8e99-315619ff0954" name="变更" comment="修改登录，增加注册界面。修改异常退出的bug。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/ApplyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/ApplyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/TeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/dao/TeacherDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/TeacherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/serviceImpl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/serviceImpl/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/serviceImpl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/java/com/example/yuan/service/serviceImpl/TeacherServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/mybatis/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/mybatis/MemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/mybatis/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/mybatis/TeacherMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdminLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdminLogin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/AppointMentPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/AppointMentPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/CategoryAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/CategoryAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/InstrumentAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/InstrumentAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/InstrumentPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/InstrumentPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/Teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AdministerGudie/Teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/AllOfEquipment.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/AllOfEquipment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/ApplyInformationSelect.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/ApplyInformationSelect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationInsert.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationInsert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationModify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationSelect.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/EquipmentInformationSelect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/Evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/Evaluate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MainLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MainLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MainMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MainMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberInformationModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberInformationModify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberInformationSelect.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberInformationSelect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberLogin1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberLogin1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/MemberRegister.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/Request.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/Request.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/SelectApply.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/SelectApply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherInformationModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherInformationModify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherInformationSelect.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherInformationSelect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherLogin1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherLogin1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/TeacherRegister.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/equipmentUnexpected.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/equipmentUnexpected.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/src/main/resources/templates/memberMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/src/main/resources/templates/memberMain.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +293,10 @@
       <workItem from="1656749392506" duration="7320000" />
       <workItem from="1656767474497" duration="5952000" />
       <workItem from="1656846605750" duration="341000" />
-      <workItem from="1656848872460" duration="10660000" />
+      <workItem from="1656848872460" duration="10955000" />
+      <workItem from="1656860119842" duration="328000" />
+      <workItem from="1656920986234" duration="79000" />
+      <workItem from="1656921100118" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="更新页面">
       <created>1656733407193</created>
@@ -365,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656755496639</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改登录，增加注册界面。修改异常退出的bug。">
+      <created>1656859700379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656859700379</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +401,8 @@
     </ignored-roots>
     <MESSAGE value="更新页面" />
     <MESSAGE value="equipment：修复了仪器无法修改的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="equipment：修复了仪器无法修改的bug" />
+    <MESSAGE value="修改登录，增加注册界面。修改异常退出的bug。" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改登录，增加注册界面。修改异常退出的bug。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -70,7 +70,7 @@ public class LoginController {
         }
          else {
                 model.addAttribute("msg", "您输入的账号或密码有误，请重新输入!");
-                return "memberLogin";
+                return "MemberLogin1";
             }
     }
 
