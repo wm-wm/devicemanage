@@ -13,7 +13,7 @@ public interface TeacherService {
     public boolean DeleteTeacher(Integer tid);
 
     //修改老师信息
-    public boolean UpdateTeacher(Integer tid,String tname,String tmail,String tpw,String lname);
+    public boolean UpdateTeacher(Integer tid,String tname,String tmail,String tpw,Integer lid);
 
 
     public Teacher findTeacher(@Param("tid")int tid);

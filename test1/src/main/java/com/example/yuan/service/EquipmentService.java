@@ -16,7 +16,7 @@ public interface EquipmentService {
     //根据eid查询仪器
     public Equipment SelectEquipmentByEid(int eid);
     //修改仪器信息
-    public boolean UpdateEquipment(Integer eid,String ename,String cname);
+    public boolean UpdateEquipment(Integer eid,String ename,Integer cid);
 
 
     public List<Equipment> findallEquip(@Param("lid")int lid);

@@ -25,7 +25,7 @@
     <!-- 修改仪器信息 -->
     <update id="UpdateEquipment" parameterType="com.example.yuan.pojo.Equipment">
         update equipment
-        set ename = #{ename},cid = (select cid from category where cname = #{cname})
+        set ename = #{ename},cid = #{cid}
         where eid = #{eid};
     </update>
 

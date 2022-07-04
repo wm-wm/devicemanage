@@ -34,7 +34,7 @@ public class EquipmentControllerTest {
     {
         Mockito.when(equipmentService.SelectAllEquipment()).thenReturn(new ArrayList<>());
         Mockito.when(equipmentService.DeleteEquipment(10001)).thenReturn(true);
-        Mockito.when(equipmentService.UpdateEquipment(eid,ename,cname));
+        Mockito.when(equipmentService.UpdateEquipment(eid,ename,cid));
     }
     @Test
     public void listAll() throws Exception

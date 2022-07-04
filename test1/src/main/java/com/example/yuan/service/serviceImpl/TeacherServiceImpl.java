@@ -33,9 +33,9 @@ public class TeacherServiceImpl implements TeacherService {
         else {return false;}
     }
     //修改老师信息
-    public boolean UpdateTeacher(Integer tid,String tname,String tmail,String tpw,String lname)
+    public boolean UpdateTeacher(Integer tid,String tname,String tmail,String tpw,Integer lid)
     {
-        int i = teacherDao.UpdateTeacher(tid,tname,tmail,tpw,lname);
+        int i = teacherDao.UpdateTeacher(tid,tname,tmail,tpw,lid);
         if(i>0)
         {
             return true;

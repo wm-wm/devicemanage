@@ -12,8 +12,7 @@
     <!-- 修改老师信息 -->
     <update id="UpdateTeacher" parameterType="com.example.yuan.pojo.Teacher">
         update teacher
-        set tname = #{tname},tmail = #{tmail},tpw = #{tpw},
-            lid = (select lid from laboratory where lname = #{lname})
+        set tname = #{tname},tmail = #{tmail},tpw = #{tpw},lid = #{lid}
         where tid = #{tid}
     </update>
     <delete id="DeleteTeacher" parameterType="java.lang.Integer">

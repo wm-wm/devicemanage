@@ -38,7 +38,7 @@ public class LoginController {
         SuperVisor superVisor=superVisorService.selectSuperVisor(sid,spw);
         if(superVisor!=null){
             model.addAttribute("superVisor",superVisor);
-            return "MainMenu";
+            return "EquipmentInformationSelect";
         }
         return "MainLogin";
     }

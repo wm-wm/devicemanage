@@ -16,7 +16,7 @@ public interface TeacherDao {
     public List<Teacher> SelectAllTeacher();
 
     //修改老师信息
-    public int UpdateTeacher(Integer tid,String tname,String tmail,String tpw,String lname);
+    public int UpdateTeacher(Integer tid,String tname,String tmail,String tpw,Integer lid);
 
     //删除老师信息
     public int DeleteTeacher(Integer tid);

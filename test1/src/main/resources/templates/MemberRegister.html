@@ -10,10 +10,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="../static/lib/layui-v2.6.3/css/layui.css" media="all">
-    <!--[if lt IE 9]>
-    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
-    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
     <style>
         html, body {width: 100%;height: 100%;overflow: hidden}
         body {background: #1E9FFF;}
@@ -38,6 +34,10 @@
             <form class="layui-form" th:action="memberRegister">
                 <div class="layui-form-item logo-title">
                     <h1>用户注册</h1>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-icon layui-icon-friends" ></label>
+                    <input type="text" name="mid" lay-verify="required|mid" placeholder="用户名" autocomplete="off" class="layui-input" value="">
                 </div>
 				<div class="layui-form-item">
 				    <label class="layui-icon layui-icon-friends" ></label>

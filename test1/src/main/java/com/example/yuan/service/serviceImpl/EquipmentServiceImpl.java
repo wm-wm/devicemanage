@@ -40,9 +40,9 @@ public class EquipmentServiceImpl implements EquipmentService
         return equipmentDao.SelectEquipmentByEid(eid);
     }
     //修改仪器信息
-    public boolean UpdateEquipment(Integer eid,String ename,String cname)
+    public boolean UpdateEquipment(Integer eid,String ename,Integer cid)
     {
-        int i = equipmentDao.UpdateEquipment(eid,ename,cname);
+        int i = equipmentDao.UpdateEquipment(eid,ename,cid);
         if(i>0){return true;}
         else {return false;}
     }

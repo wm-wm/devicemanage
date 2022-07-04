@@ -40,9 +40,9 @@ public class TeacherController {
         }
     }
     @RequestMapping("/TeacherInformationModify")
-    public String TeacherInformationModify(Integer tid,String tname,String tmail,String tpw,String lname,Model model)
+    public String TeacherInformationModify(Integer tid,String tname,String tmail,String tpw,Integer lid,Model model)
     {
-        model.addAttribute("teacher",teacherService.UpdateTeacher(tid,tname,tmail,tpw,lname));
+        model.addAttribute("teacher",teacherService.UpdateTeacher(tid,tname,tmail,tpw,lid));
         return "/TeacherInformationModify";
     }
 }

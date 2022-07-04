@@ -62,9 +62,9 @@ public class EquipmentController {
         }
     }
     @RequestMapping ("/EquipmentInformationModify")
-    public String SelectEquipmentByEid(Model model,Integer eid,String ename,String cname)
+    public String SelectEquipmentByEid(Model model,Integer eid,String ename,Integer cid)
     {
-        model.addAttribute("equipmentUpdate", equipmentService.UpdateEquipment(eid,ename,cname));
+        model.addAttribute("equipmentUpdate", equipmentService.UpdateEquipment(eid,ename,cid));
         return "EquipmentInformationModify";
     }
     @RequestMapping("/EquipmentInformationInsert")

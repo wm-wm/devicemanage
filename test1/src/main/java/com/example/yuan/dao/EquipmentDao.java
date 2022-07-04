@@ -23,7 +23,7 @@ public interface EquipmentDao {
     public Equipment SelectEquipmentByEid(int eid);
 
     //修改仪器信息
-    public int UpdateEquipment(Integer eid,String ename,String cname);
+    public int UpdateEquipment(Integer eid,String ename,Integer cid);
 
 
     @Select("SELECT eid,ename,category.cid,cname FROM equipment,category where equipment.cid=(SELECT cid FROM category WHERE lid=#{lid}) AND equipment.cid=category.cid")
